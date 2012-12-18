@@ -4,13 +4,15 @@
  */
 
 var express = require('express')
+  , nowww = require('nowww')
   , routes = require('./routes');
 
 var app = module.exports = express.createServer();
 
 // Configuration
 
-app.configure(function(){
+app.configure(function() {
+  app.use(nowww());
   app.set('views', __dirname + '/views');
   app.set('view engine', 'jade');
   app.use(express.bodyParser());
