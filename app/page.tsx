@@ -1,19 +1,12 @@
-import Head from "next/head";
+import React from 'react'
+import Link from 'next/link'
 
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>Cristian Douce</title>
-        <meta
-          name="description"
-          content="Cristian Douce - Full-stack engineer from Buenos Aires, Argentina"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <main>
       <h1>Cristian Douce</h1>
       <p>Welcome to my personal site.</p>
-      <p>Yes... I&lsquo;m still working on a good presentation...</p>
+      <p>Yes... I&apos;m still working on a good presentation...</p>
       <p>Thanks for stopping by though!</p>
       <p>Meanwhile you can follow me and my work:</p>
       <ul>
@@ -45,6 +38,6 @@ export default function Home() {
           </a>
         </li>
       </ul>
-    </>
-  );
-}
+    </main>
+  )
+} 
