@@ -1,5 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Home',
+  description: 'Full-stack engineer from Buenos Aires, Argentina',
+}
 
 export default function Home() {
   return (
