@@ -1,7 +1,8 @@
 import React, { ReactNode } from 'react'
 import { Inter } from 'next/font/google'
 import type { Viewport } from 'next'
-import '../styles/globals.css'
+
+import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -9,7 +10,6 @@ export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
 }
-
 export const metadata = {
   title: {
     template: '%s | Cristian Douce',
