@@ -25,7 +25,7 @@ export default function Home() {
           className="w-28 h-28 sm:w-32 sm:h-32 rounded-full mx-auto mb-4"
         />
         <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight mb-2">Cristian Douce</h1>
-        <p className="text-base sm:text-lg text-gray-600 text-inline">
+        <p className="text-base sm:text-lg text-gray-600 inline">
           Full-stack engineer passionate about building innovative solutions, exploring technology trends, and enjoying a good coffee or shawarma. Based in Buenos Aires, Argentina.
         </p>
       </header>
