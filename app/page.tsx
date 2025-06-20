@@ -58,7 +58,7 @@ export default function Home() {
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-gray-700 transition-colors duration-150 text-base sm:text-lg"
+                className="flex items-center gap-2 text-gray-700 transition-colors duration-150 text-base sm:text-lg group-hover:text-black"
               >
                 <Icon
                   className={`w-6 h-6 text-gray-500 transition-colors duration-150 ${hoverClass}`}
