@@ -31,7 +31,7 @@ export default function Home() {
       </header>
 
       <nav className="mt-8 w-full max-w-md">
-        <ul className="flex flex-row justify-left text-left md:justify-between md:text-center gap-6 ps-6 md:p-0 flex-wrap">
+        <ul className="flex flex-row justify-start text-left md:justify-between md:text-center gap-6 ps-6 md:p-0 flex-wrap">
           {profiles.map(({ label, url, Icon, colorClass }) => (
             <li key={url} className="group grow flex-1 md:flex-auto min-w-1/3 md:min-w-auto">
               <Link
